@@ -122,8 +122,12 @@ footer {
         img {
           width: 50%;
         }
-        & > div:first-child {
+        & div:first-child {
           text-align: right;
+        }
+        .info div {
+          padding-left: 0.5rem;
+          width: fit-content;
         }
       }
     }
