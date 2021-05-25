@@ -1,0 +1,166 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+img {
+  border-radius: 50%;
+  width: calc((100% / 3) - 3px);
+}
+
+header {
+  background-color: grey;
+  padding: 1rem;
+  text-align: center;
+}
+
+header img {
+  width: 10%;
+}
+
+header .input-icons i {
+  padding: 0.25rem;
+  position: absolute;
+}
+
+#slideshow {
+  background-image: url(https://images.unsplash.com/photo-1528105862282-e4333365c1d4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1350&q=80);
+  height: 20rem;
+  line-height: 20rem;
+  text-align: center;
+}
+
+#slideshow h1 {
+  color: grey;
+  font-size: 150%;
+  margin: 0;
+}
+
+#people {
+  margin-top: 0.5rem;
+  text-align: center;
+}
+
+#people .about h2 {
+  color: #f1c40f;
+}
+
+#people .about p {
+  padding: 0 1rem;
+}
+
+#people .staff img {
+  width: 40%;
+}
+
+#people .staff .info {
+  padding: 1rem 0;
+}
+
+#people .staff .name {
+  color: #f1c40f;
+  padding-bottom: 0.5rem;
+}
+
+footer {
+  background-color: grey;
+  padding-bottom: 2rem;
+  text-align: center;
+}
+
+footer .block {
+  background-color: #f1c40f;
+  height: 10px;
+}
+
+footer .column {
+  margin-top: 1rem;
+}
+
+footer .column div {
+  color: #f1c40f;
+  font-weight: bold;
+  margin: 0.5rem 0 1rem 0;
+}
+
+footer .column a {
+  color: white;
+  display: block;
+  padding: 0.1rem 0;
+  text-decoration: none;
+}
+
+@media only screen and (min-width: 30rem) {
+  .container {
+    margin: 0 auto;
+    width: 70%;
+  }
+  header .container {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  #slideshow {
+    min-height: 40rem;
+  }
+  #slideshow h1 {
+    line-height: 40rem;
+  }
+  #people {
+    margin-top: -10rem;
+  }
+  #people .about p {
+    padding: 0;
+  }
+  #people .photos {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  #people .photos img {
+    width: calc((100% / 4) - 4px);
+  }
+  #people .staff {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 2rem 0;
+  }
+  #people .staff div {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+  }
+  #people .staff .member {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  #people .staff .member .info {
+    text-align: center;
+  }
+  #people .staff .member .info,
+  #people .staff .member img {
+    width: 50%;
+  }
+  #people .staff .member > div:first-child {
+    text-align: right;
+  }
+  footer .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+/*# sourceMappingURL=style.css.map */
