@@ -151,8 +151,14 @@ footer .column a {
   #people .staff .member img {
     width: 50%;
   }
-  #people .staff .member > div:first-child {
+  #people .staff .member div:first-child {
     text-align: right;
+  }
+  #people .staff .member .info div {
+    padding-left: 0.5rem;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
   }
   footer .container {
     display: -webkit-box;
