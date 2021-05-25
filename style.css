@@ -144,9 +144,6 @@ footer .column a {
     display: -ms-flexbox;
     display: flex;
   }
-  #people .staff .member .info {
-    text-align: center;
-  }
   #people .staff .member .info,
   #people .staff .member img {
     width: 50%;
@@ -159,6 +156,12 @@ footer .column a {
     width: -webkit-fit-content;
     width: -moz-fit-content;
     width: fit-content;
+  }
+  #people .staff .member .info div div {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: 0 auto;
   }
   footer .container {
     display: -webkit-box;
